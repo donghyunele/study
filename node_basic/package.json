@@ -1,0 +1,8 @@
+{
+  "name": "study",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/donghyunele/study.git",
+  "author": "donghyunele <donghyunele@gmail.com>",
+  "license": "MIT"
+}
