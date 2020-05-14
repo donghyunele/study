@@ -3,7 +3,6 @@ const app = express()
 const bodyParser = require('body-parser')
 const session = require('express-session')
 const fs = require('fs')
-const router = require('./router/main')(app)
 
 app.set('views', __dirname + '/views')
 app.set('view engine', 'ejs')
@@ -22,3 +21,5 @@ app.use(session({
   resave: false,
   saveUninitialized: true
 }));
+
+const router = require('./router/main')(app, fs)
