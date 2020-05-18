@@ -67,7 +67,7 @@
 - nonce : 4 : Pow에서 사용하는 카운터
 
 ### 머글 트리
-[머글 트리][https://en.wikipedia.org/wiki/Merkle_tree]
+![머글 트리](https://upload.wikimedia.org/wikipedia/commons/9/95/Hash_Tree.svg)
 
 ### 작업 증명 알고리즘
 > 암호화 해시 함수의 특정 해시값 이하인 입력값(논스 nonce) 찾기를 작업 증명 알고리즘으로 삼는다.
